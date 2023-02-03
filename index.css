@@ -1,6 +1,141 @@
-body {
+body, html {
     font-family: Roboto, sans-serif;
     height: 100vh;
     margin: 0;
     padding: 0;
+}
+.header {
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    margin: 0;
+}
+.header, .section-one {
+    background-color: #1f2937;
+}
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+.contrast {
+    marin-top: 0;
+    color: #e5e7eb;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+li a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+.section-one{
+    margin: 0;
+    padding: 0;
+    display: flex
+}
+.welcome {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 100px 50px;
+}
+h1 {
+    font-size: 48px;
+    color: #f9faf8
+}
+button {
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 75px;
+    padding: 4px 12px;
+}
+.btn-two {
+    border: 1px solid white;
+    align-self: center;
+}
+.img-placeholder {
+    background-color: gray;
+    color: white;
+    width: 500px;
+    height: 200px;
+    margin-right: 75px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subheading {
+    text-align: center;
+    margin: 35px;
+}
+.grid {
+    display: flex;
+    justify-content: center;
+    margin: 0 100px;
+}
+.item {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+.blue-border {
+    border: 2px solid #3882f6;
+    height: 120px;
+    width: 120px;
+    border-radius: 8px;
+}
+.subtext {
+    font-size: 13px;
+    text-align: center;
+    color: gray;
+    margin-bottom: 50px;
+}
+.section-three {
+    background-color: #e5e7eb;
+    padding: 48px 130px
+}
+.quote {
+    font-size: 32px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937
+}
+.person {
+    text-align: right;
+    font-weight: bold;
+}
+.section-four {
+    margin: 0;
+    padding: 90px 120px;
+}
+.container {
+    background-color: #3882f6;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 3px;
+    display: flex;
+
+}
+.sign-up {
+    margin-right: 25px;
+}
+.action {
+    margin-bottom: 2px;
+    font-weight: bold;
+}
+.footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 10px;
+    font-size: small;
 }
